@@ -2,7 +2,7 @@
 
 mcreceive_sent.c
 
-arg 1: multicast ip address
-arg 2: multicast port number
-arg 3: multicast IP address
-arg 4: multicast port number
+1. arg 1: multicast Recv ip address
+2. arg 2: multicast Recv port number
+3. arg 3: multicast Sent IP address
+4. arg 4: multicast Sent port number
