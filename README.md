@@ -1,6 +1,7 @@
 # multicast_mreciver_to_msend
 
-mcreceive_sent.c
+using mcreceive_sent.c 
+build multicast Recv to Sent 
 
 1. arg 1: multicast Recv ip address
 2. arg 2: multicast Recv port number
