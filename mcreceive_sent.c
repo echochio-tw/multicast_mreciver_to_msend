@@ -38,10 +38,10 @@ int main(int argc, char *argv[]) {
     exit(1);
   }
 
-  mc_addr_str = argv[1];      /* arg 1: multicast ip address */
-  mc_port = atoi(argv[2]);    /* arg 2: multicast port number */
-  mc_addr_strs = argv[3];       /* arg 1: multicast IP address */
-  mc_ports = atoi(argv[4]); /* arg 2: multicast port number */
+  mc_addr_str = argv[1];      /* arg 1: multicast Recv ip address */
+  mc_port = atoi(argv[2]);    /* arg 2: multicast Recv port number */
+  mc_addr_strs = argv[3];     /* arg 3: multicast sent IP address */
+  mc_ports = atoi(argv[4]);   /* arg 4: multicast sent port number */
 
   /* validate the port range */
   if ((mc_port < MIN_PORT) || (mc_port > MAX_PORT)) {
